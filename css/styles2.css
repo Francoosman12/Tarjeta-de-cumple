@@ -1,0 +1,83 @@
+body {
+    background-image: url(https://i.ibb.co/161h6R3/fondo-Invitacion-Pokemon-02-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contenedor {
+    margin-top: 80%;
+    text-align: center;
+}
+
+.contenedor h3 {
+    color: white;
+}
+
+.contenedor h2 {
+    color: white;
+}
+
+.contenedor-nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-nombre img {
+    width: 50px;
+    height: 40px;
+}
+
+@media screen and (min-width: 414px) {
+    .contenedor {
+        margin-top: 95%;
+    }
+}
+
+@media screen and (min-width: 280px) {
+    .contenedor {
+        margin-top: 90%;
+    }
+
+    .fecha {
+        padding: 10px;
+        color: white;
+    }
+
+    .mapa {
+        margin-top: 1px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .contenedor {
+        margin-top: 0%;
+        margin-bottom: 60%;
+    }
+
+    .fecha {
+        padding: 10px;
+        color: white;
+    }
+
+    .mapa {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .contenedor {
+        margin-top: 90%;
+    }
+
+    .fecha {
+        padding: 10px;
+        color: white;
+    }
+
+    .mapa {
+        margin-top: 15px;
+    }
+}
